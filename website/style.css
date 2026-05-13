@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+}.main {
+    width: 100%;
+    background: url(img.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: orange;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 20px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: orange;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 20px;
+    background: transparent;
+    border: 1px solid orange;
+    margin-top: 10px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 43px;
+    background: orange;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+    border: 2px solid orange;
+    font-size: 15px;
+    border-top-right-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    
+}
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+.content par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 50px;
+    padding-left: 20px;
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9px;
+    letter-spacing: 2px;
+    
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: orange;
+    margin-bottom: 10px;
+    margin-left: 16px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    transition: .4s ease;
+    margin-top: 15px;
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: #fff;
+}
+
+.content span{
+    color: orange;
+    font-size: 60px;
+}
+
+.form{
+    width: 300px;
+    height: 420px;
+    background: black;
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+}
+
+.form h1{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Times New Roman';
+    text-decoration: none;
+}
+.btc{
+    width: 120px;
+    height: 48px;
+    background: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .4 ease;
+    margin: 10px;
+    padding: 10px;
+    position: absolute;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+.btc:hover{
+    background: white;
+}
+.link{
+    font-family: 'Times New Roman';
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    letter-spacing: 0.5px;
+    font-size: 10px;
+}
+.form a{
+    color: rgb(116, 36, 36);
+}
+
