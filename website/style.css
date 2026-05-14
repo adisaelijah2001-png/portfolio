@@ -174,7 +174,7 @@ ul li a:hover{
     border-radius: 5px;
     cursor: pointer;
     transition: .4 ease;
-    margin: 10px;
+    margin: 8px;
     padding: 10px;
     position: absolute;
     font-size: 20px;
@@ -191,6 +191,7 @@ ul li a:hover{
     padding-left: 5px;
     letter-spacing: 0.5px;
     font-size: 10px;
+    margin: 30px;
 }
 .form a{
     color: rgb(116, 36, 36);
